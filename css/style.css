@@ -93,6 +93,9 @@ nav,.banner{
     align-items: center;
     gap: 73px;
 }
+.team-img-con img{
+    width: 100%;
+}
 .our-features{
     max-width: 530px;
     font-weight: 700;
@@ -186,7 +189,17 @@ margin-top:-100px ;
 font-size:4rem;
 font-weight: 700;
 }
-
+footer{
+    max-width: 1140px;
+    margin: 100px auto;
+     padding: 30px 0;
+     text-align: center;
+}
+footer p{
+    max-width: 620px;
+    margin: 0 auto;
+   
+}
 /* responsive media query */
 @media screen and (max-width:576px) {
     .display-flex, .nav-links{
@@ -222,6 +235,9 @@ nav,.banner{
     margin-top: 20px;
     margin-left: 20px;
 }
+footer{
+    max-width: 95%;
+}
     
 }
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -255,5 +271,8 @@ nav,.banner{
 #experience-badge{
     margin-top: 20px;
     margin-left: 20px;
+}
+footer{
+    max-width: 95%;
 }
 }
